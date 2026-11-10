@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Centro Comercial</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Centro Comercial</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#tiendas">Tiendas</a>
+            <a href="#promociones">Promociones</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+            <h2>¡Bienvenidos!</h2>
+            <p>Todo lo que buscas en un solo lugar.</p>
+            <a href="#tiendas" class="boton">Conocer más</a>
+        </section>
+
+        <section id="tiendas">
+
+            <h2>Nuestras tiendas</h2>
+
+            <div class="contenedor">
+
+                <div class="tarjeta">
+                    <img src="img/ropa.jpg" alt="Tienda de ropa">
+                    <h3>Tienda de ropa</h3>
+                    <p>Encuentra ropa para todos los gustos.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/comida.jpg" alt="Restaurante">
+                    <h3>Restaurantes</h3>
+                    <p>Disfruta de deliciosas comidas.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/centro.jpg" alt="Cine">
+                    <h3>Cine</h3>
+                    <p>Disfruta de las mejores películas.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="promociones" class="promociones">
+            <h2>Promociones</h2>
+            <p>Visita nuestras tiendas y aprovecha los descuentos.</p>
+            <h3>¡Grandes ofertas te esperan!</h3>
+        </section>
+
+        <!-- SERVICIOS CON ENLACES -->
+
+        <section id="servicios">
+
+            <h2>Nuestros servicios</h2>
+
+            <div class="contenedor-servicios">
+
+                <a href="parqueadero.html" class="servicio">
+                    <h3>Parqueadero</h3>
+                    <p>Contamos con parqueadero para visitantes.</p>
+                    <span>Ver más</span>
+                </a>
+
+                <a href="wifi.html" class="servicio">
+                    <h3>WiFi gratis</h3>
+                    <p>Conéctate a internet mientras nos visitas.</p>
+                    <span>Ver más</span>
+                </a>
+
+                <a href="seguridad.html" class="servicio">
+                    <h3>Seguridad</h3>
+                    <p>Queremos que disfrutes tu visita.</p>
+                    <span>Ver más</span>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="contacto">
+
+            <h2>Contáctanos</h2>
+            <p>Déjanos tus datos y tu mensaje.</p>
+
+            <form id="formulario">
+
+                <input type="text" id="nombre"
+                    placeholder="Nombre completo" required>
+
+                <input type="email" id="correo"
+                    placeholder="Correo electrónico" required>
+
+                <textarea id="mensaje"
+                    placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+            <p id="respuesta"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Centro Comercial Web</p>
+        <p>Proyecto realizado por estudiantes de grado 11.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
